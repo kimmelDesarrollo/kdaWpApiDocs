@@ -1,0 +1,26 @@
+Conocer los productos de los cuales dispone un cliente
+======================================================
+
+Ruta::
+
+   http://190.107.28.210:4000/codice/client_products
+
+Método::
+
+   POST
+
+Cabecera Requerida::
+
+    Content-Type: application/json
+
+Parámetros Requeridos::
+
+    cc
+
+Ejemplo Parámetros::
+
+    {"cc" : "1234567890"}
+
+Ejemplo Respuesta::
+
+    {"nombre": "Deudores", "numero": 4712709, "inicio": "2017-12-09", "final": "2020-12-11", "valor": "0"}
